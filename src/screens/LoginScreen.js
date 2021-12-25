@@ -84,6 +84,7 @@ const LoginScreen = ({ navigation }) => {
               style={styles.textInput}
               autoFocus={true}
               value={emailInput}
+              keyboardType="email-address"
               onChangeText={(e) => handleEmailChange(e)}
             />
             <View>
