@@ -30,15 +30,8 @@ const MainApp = () => {
             headerShown: false,
           }}
         >
-          {isAppFirstLaunched && (
-            <Stack.Screen
-              name="OnboardingScreen"
-              component={OnboardingScreen}
-            />
-          )}
-
+          <Stack.Screen name="OnboardingScreen" component={OnboardingScreen} />
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
-
           <Stack.Screen name="HomeScreen" component={HomeScreen} />
         </Stack.Navigator>
       </NavigationContainer>

@@ -43,6 +43,7 @@ const LoginScreen = ({ navigation }) => {
 
   const checkIfPasswordIsValid = () => {
     if (passwordInput.length <= 5) {
+      setPasswordInput("");
       return "Password must be greater than 5 characters";
     } else return "valid";
   };
