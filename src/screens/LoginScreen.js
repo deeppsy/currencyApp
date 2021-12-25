@@ -53,8 +53,7 @@ const LoginScreen = ({ navigation }) => {
 
     if (emailValid == "valid" && passwordValid == "valid") {
       await AsyncStorage.setItem("myAppUser", "user");
-      const user = await AsyncStorage.getItem("myAppUser");
-      console.log(user);
+
       navigation.replace("HomeScreen");
       setPasswordInput("");
       setEmailInput("");
