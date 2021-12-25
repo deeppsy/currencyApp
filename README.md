@@ -11,6 +11,7 @@ Clone the repository, change directories, and use npm or yarn to install the dep
 ```bash
 $ git clone https://github.com/deeppsy/currencyApp.git currencyApp
 $ cd currencyApp
+$ yarn install
 $ yarn start
 ```
 
